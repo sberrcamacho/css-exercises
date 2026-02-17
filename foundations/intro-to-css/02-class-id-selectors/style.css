@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+.red-class {
+  font-family: "Verdana", "Dejavu Sans", sans-serif;
+  background-color: #ffa7a7;
+}
+
+#blue-number {
+  color: #0000ff;
+  font-size: 36px;
+}
+
+.red-class.bigger {
+  font-size: 24px;
+}
+
+#green-number {
+  background-color: #80ff80;
+  font-size: 24px;
+  font-weight: bold;
+}
