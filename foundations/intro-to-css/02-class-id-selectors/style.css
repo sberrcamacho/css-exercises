@@ -1,20 +1,19 @@
 /* Add CSS Styling */
-.red-class {
+.odd {
   font-family: "Verdana", "Dejavu Sans", sans-serif;
   background-color: #ffa7a7;
 }
 
-#blue-number {
+#two {
   color: #0000ff;
   font-size: 36px;
 }
 
-.red-class.bigger {
+.bigger {
   font-size: 24px;
 }
 
-#green-number {
+#four {
   background-color: #80ff80;
-  font-size: 24px;
   font-weight: bold;
 }
