@@ -2,8 +2,12 @@
 you'll learn about it later. */
 @import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap");
 
-body {
+* {
   margin: 0;
+  padding: 0;
+}
+
+body {
   background: #eee;
   font-family: Besley, serif;
 }
@@ -15,6 +19,8 @@ body {
 
   display: flex;
   align-items: center;
+  padding: 8px;
+  gap: 16px;
 }
 
 .profile-image {
@@ -30,8 +36,6 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-
-  margin-left: 10px;
 }
 
 button {
@@ -39,15 +43,9 @@ button {
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 10px 24px;
+  padding: 8px 24px;
 
-  height: fit-content;
   margin-left: auto;
-}
-
-button,
-.profile-image {
-  margin-right: 10px;
 }
 
 a {
@@ -60,5 +58,5 @@ ul {
   list-style-type: none;
 
   display: flex;
-  gap: 14px;
+  gap: 16px;
 }
